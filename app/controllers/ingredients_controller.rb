@@ -1,4 +1,4 @@
-class DoseController < ApplicationController
+class IngredientsController < ApplicationController
   def index
   end
 
