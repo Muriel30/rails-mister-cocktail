@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Cocktail.destroy_all
+
+ingredients = JSON.parse(open(url).read)["drinks"]
+
+ingredients.map! {|ingredient| {name: ingredient["strIngredient1"]}}
+
