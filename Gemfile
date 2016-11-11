@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'figaro'
-
-ruby '2.3.1'
+gem 'cloudinary', '1.1.0'
+gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
